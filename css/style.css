@@ -1,0 +1,32 @@
+.jumbotron
+{
+    background-image: url('../img/bg.jpg');
+
+    background-size: cover;
+    height: 100%;
+}
+.jumbotron img {
+    object-fit: fill;
+   
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+ /* Not required for template or sticky footer method. */
+
+.labelisation {
+  display: flex;
+  margin-top: 2px;;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
